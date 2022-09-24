@@ -23,6 +23,34 @@ body{
     border-radius: 1em;
 }
 
-.wrapper .menu{
+.menu{
     padding: 1em 1.2em;
+}
+
+.item{
+    list-style: none;
+    font-size: 2.2em;
+    height: 2.5em;
+    width: 100%;
+    border-radius: 0.5em;
+    margin-bottom: 0.2em;
+    padding: 0 0.5em 0 1em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item span{
+    margin-left: 0.8em;
+    font-size: 0.8em;
+}
+
+.item:hover{
+    background: #f2f2f2;
+}
+
+.settings{
+    display: flex;
+    padding: 0.5em 1.2em;
+    border-top: 0.1em solid #ccc;
 }

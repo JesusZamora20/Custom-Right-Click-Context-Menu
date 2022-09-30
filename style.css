@@ -21,6 +21,7 @@ body{
     background: white;
     width: 30em;
     border-radius: 1em;
+    box-shadow: 0 1.2em 3.5em rgba(0,0,0,0.1);
 }
 
 .menu{
@@ -54,3 +55,32 @@ body{
     padding: 0.5em 1.2em;
     border-top: 0.1em solid #ccc;
 }
+
+.share {
+    position: relative;
+    justify-content: space-between;
+}
+
+.share .share-menu .item{
+    font-size: 1em;
+}
+
+.share-menu{
+    position: absolute;
+    background:white;
+    width: 10em;
+    right: -10em;
+    top: 0em;
+    box-shadow: 0 0.5em 1em rgba(0,0,0,0.08);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s ease;
+}
+
+.share:hover .share-menu{
+    opacity: 1;
+    pointer-events: auto;
+}
+

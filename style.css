@@ -10,14 +10,12 @@ html{
 }
 
 body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     min-height: 100vh;
     background: linear-gradient(135deg,#8B55E9 0%, #5D6BE6 100%);
 }
 
 .wrapper{
+    position: absolute;
     visibility: hidden;
     background: white;
     width: 30em;
